@@ -1,44 +1,32 @@
-### 👋 Hi, I'm Liankun Yang
+# Liankun Yang
 
-- 🎓 **MSc in Artificial Intelligence** @ Xi'an Jiaotong-Liverpool University (XJTLU), JITRI track
-- 🎓 BSc in Big Data Management & Application @ Nanjing Forestry University
-- 🔭 **Currently learning**: PyTorch, Hugging Face Transformers, LLM fine-tuning (LoRA)
-- 💡 **Research interests**: Large Language Models, Recommender Systems, Data Mining
-- 📫 **Reach me**: Liankun.Yang26@student.xjtlu.edu.cn
+西交利物浦大学人工智能硕士在读，目前关注工业文档问答与企业 AI 应用，正在通过项目复现、结果核对和失败诊断积累实践。
 
----
+## 教育背景
 
-### 🛠️ Tech Stack
+- MSc in Artificial Intelligence · Xi'an Jiaotong-Liverpool University (XJTLU), JITRI track
+- BSc in Big Data Management & Application · Nanjing Forestry University
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
+## 代表项目
 
----
+### [工业产品手册 RAG 问答原型](https://github.com/LiankunYang/industrial-manual-rag)
 
-### 📌 Featured Projects
+基于施耐德 Easy UPS 公开中文手册的复现实验：解析 PDF、保留页码切分、使用 BGE 检索，再依据原文生成带引用的回答。
 
+- 结合字符 TF-IDF、语义检索与 RRF 排名融合；三道原漏答题在单次人工核对中通过。
+- 五道未参与此前调试的新题单次人工核对 **4/5 通过**，保留漏检案例，后续人工调整检索表达的诊断单独记录。
+- 提供代码、带真实输出的 Notebook、问题集和历史评测。结果限于当前手册页面和问题集，不作为系统整体准确率。
 
+[项目说明与运行方式](https://github.com/LiankunYang/industrial-manual-rag#readme) · [新问题检查](https://github.com/LiankunYang/industrial-manual-rag/blob/main/public_manual/new_questions.ipynb) · [评测记录](https://github.com/LiankunYang/industrial-manual-rag/tree/main/public_manual/results)
 
----
+## 当前实践
 
-### 📊 Learning Progress
+文档解析、语义与关键词检索、API 调用、引用核对和固定问题检查。
 
-| 领域 | 状态 |
-|------|------|
-| Python / Pandas / NumPy | ✅ 熟练 |
-| 传统机器学习（Scikit-learn） | ✅ 熟练 |
-| SQL / 数据工程 | ✅ 熟练 |
-| PyTorch 基础 | 🔄 学习中 |
-| Hugging Face / 大模型微调 | 🔄 学习中 |
-| 推荐系统 | 🔄 学习中 |
+相关工具：Python、pypdf、Sentence Transformers、scikit-learn、DeepSeek API。
 
----
+学习过程与练习记录：[llm-practice](https://github.com/LiankunYang/llm-practice)。
 
-> 💡 "Stay hungry, stay foolish." —— 正在从数据分析向AI算法方向转型中。
+## 联系
+
+[Liankun.Yang26@student.xjtlu.edu.cn](mailto:Liankun.Yang26@student.xjtlu.edu.cn)
